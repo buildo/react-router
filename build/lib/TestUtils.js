@@ -169,3 +169,23 @@ exports.EchoBarParam = React.createClass({
     );
   }
 });
+
+exports.TransitionContext = React.createClass({
+  displayName: 'TransitionContext',
+
+  statics: {
+    willTransitionTo: function willTransitionTo(transition) {
+      var service = transition.context.getService();
+      if (!service.isLoggedIn) {
+        transition.redirect('/foo');
+      }
+    }
+  },
+  render: function render() {
+    return React.createElement(
+      'div',
+      null,
+      'TransitionContext'
+    );
+  }
+});
