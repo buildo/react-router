@@ -1,3 +1,9 @@
+v0.13.3-transitionContext - Thu, 18 Jun 2015 09:30:50 GMT
+---------------------------------------------------------
+
+- [9489a66](../../commit/9489a66) [added] transitionContext option to Router.create
+
+
 v0.13.3 - Wed, 29 Apr 2015 01:47:08 GMT
 ---------------------------------------
 
