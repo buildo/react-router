@@ -1,6 +1,5 @@
 {
   "name": "react-router-transition-context",
-  "version": "0.13.3",
   "description": "A complete routing library for React.js",
   "main": "modules",
   "repository": {
