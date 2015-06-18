@@ -1,14 +1,13 @@
 {
-  "name": "react-router",
-  "version": "0.13.3",
+  "name": "react-router-transition-context",
   "description": "A complete routing library for React.js",
   "main": "lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rackt/react-router.git"
+    "url": "https://github.com/buildo/react-router.git"
   },
-  "homepage": "https://github.com/rackt/react-router/blob/latest/README.md",
-  "bugs": "https://github.com/rackt/react-router/issues",
+  "homepage": "https://github.com/buildo/react-router/blob/latest/README.md",
+  "bugs": "https://github.com/buildo/react-router/issues",
   "authors": [
     "Ryan Florence",
     "Michael Jackson"
@@ -32,5 +31,6 @@
     "route",
     "routes",
     "router"
-  ]
+  ],
+  "version": "0.13.3"
 }
